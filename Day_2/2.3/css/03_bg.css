@@ -1,0 +1,34 @@
+#bg1{
+    background-color: rgb(135, 233, 233);
+    height: 400px;
+    width: 400px;
+    border:2px solid black;
+
+}
+
+#bg2{
+     background-image: url('items/pic1.jpg');
+    height: 400px;
+    width: 600px;
+    border:2px solid black;
+}
+
+#bg3{ background-image: url('items/pic2.jpg');
+    background-repeat:right-x;
+    
+    height: 800px;
+    width: 600px;
+    border:2px solid black;
+} 
+
+body{ background-image: url('items/pic3.jpg');
+        background-repeat: no-repeat;
+        background-position: right top;
+        margin-right : 200px;
+        background-attachment: fixed;     
+}
+
+#bg5{ background-color: rgb(135, 233, 233);
+    height: 400px;
+    width: 400px;
+    border:2px solid black;}

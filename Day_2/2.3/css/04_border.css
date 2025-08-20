@@ -1,0 +1,25 @@
+#b1{background-color: aquamarine;
+   border: 3px solid black; 
+   height:500px;
+   width:500px;
+}
+#b2{background-color: rgb(108, 83, 196);
+    border: 3px solid black;
+   border-radius: 30px; 
+   height: 500px;
+   width: 500px;
+}
+#b3{background-color: rgb(250, 123, 239);
+    border: 3px dotted black;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;    
+}
+#b4{
+    background-color: rgb(49, 253, 42);
+    border-style:dotted solid;
+
+    height: 50px;
+    width:500px;
+    
+}

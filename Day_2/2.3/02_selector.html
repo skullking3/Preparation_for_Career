@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Types Of Selectors</title>
+    <style>
+        /* Universal Selector */
+        *body{
+            padding: 0%;
+            margin: 0%;
+        }
+        /* Element Selector */
+        h1{
+            color:rgb(177, 117, 233);
+        }
+        /* Class Selector */
+        .new1{
+            color:aqua;
+        }
+        /* Id Selector */
+        #id1{
+            color: rgb(240, 170, 67);
+        }
+        /* Child selector */
+        div > p{
+            background-color: rgb(255, 255, 112);
+        }
+        /* Descendant Selector*/
+        span p{
+            background-color: rgb(32, 144, 241);
+        }
+        /* Psedu Selector */
+        a:visited{
+            color:yellow;
+        } */
+        a:active{
+            color: red;
+        }
+        a:hover{
+            background-color: green;
+        }
+        a:link{
+            color: brown;
+        }
+        span :first-child{
+            background-color: rgb(85, 187, 187);
+        }
+    </style>
+</head>
+<body>
+    <h1>In This page define types of Selector</h1>
+    <div class="new1">Class Selector</div>
+    <div id="id1">Id selector</div>
+    <div>
+        <p>Child Selector</p>
+    </div>
+    <span>
+        <b>
+            <p>Decent Selector</p>
+        </b>
+    </span>
+    <a href="https://www.google.com/" target="_blank">Google</a>
+    <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+</body>
+</html>

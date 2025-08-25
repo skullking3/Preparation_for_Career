@@ -1,0 +1,40 @@
+h1{
+    color: blue;
+}
+.prt{
+    border: 2px solid black;
+    min-height:60vh ;
+    min-width: 80vw ;
+    background-color: rgb(65, 58, 50);
+    text-align: center;
+    position:relative ;
+}
+.n1{
+    background-color: rgb(219, 156, 61);
+    position:sticky;
+    top: 0px;
+    border: 2px solid black;
+    margin:5px;
+    min-height:5vh ;
+    min-width: 60vw ;
+   
+    /* position: absolute; */
+    
+    /* position: fixed;
+    z-index: 1; */
+}
+.n2{
+    border: 2px solid black;
+    margin:5px;
+    min-height:18vh ;
+    min-width: 60vw ;
+    background-color: blueviolet;
+    
+}
+.n3{
+    border: 2px solid black;
+    margin:5px;
+    min-height:18vh ;
+    min-width: 60vw ;
+    background-color: brown;
+}

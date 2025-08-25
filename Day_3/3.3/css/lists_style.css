@@ -1,0 +1,12 @@
+h1{
+    color: olive;
+}
+li{
+    border: 2px solid black;
+    /* list-style-type: devanagari; */
+    /* list-style-position: inside; */
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    /* list-style-type:"+ "; */
+    /* list-style: url("css/item/emoji1.html"); */
+     list-style: inside url("");
+}

@@ -1,0 +1,21 @@
+body{
+    background-color: aquamarine;
+}
+h1{
+    background-color: blue
+}
+/* @media screen and (orientation: portrait) {
+    body{
+        background-color: red;
+    }
+    
+} */
+@media screen and (min-width:720px) {
+    body{
+        background-color: lightpink;
+    }
+    
+}
+  /* @media not|only mediatype and (expressions) {
+            CSS-Code;
+        } */

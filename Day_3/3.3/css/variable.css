@@ -1,0 +1,33 @@
+h1{
+    color: blue;
+    text-align: center;
+}
+:root{
+    --color:red;
+    --bg:skyblue;
+}
+ol{
+    display: flex;
+    list-style: none;
+}
+li{
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 25px;
+    width: 50px;
+    text-align: center;
+}
+.n1{
+    color: var(--color,blue);
+    background-color: var(--bg);
+}
+.n2{
+    color: var(--bg);
+    background-color: var(--color);
+}
+.n3{
+    --ds:4px;
+    padding-top:var(--ds) ;
+    background-color: var(--bg);
+}

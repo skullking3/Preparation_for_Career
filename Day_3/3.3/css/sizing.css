@@ -1,0 +1,28 @@
+.n1>.n2>.h1{
+    color: aqua;
+    background-color: blanchedalmond;
+    height: 500x;
+    width: 800px;
+    text-align: center;
+    font-size: 2rem;
+    
+}
+.n3{
+    box-sizing: border-box;
+    border: 2px solid black;
+    color: maroon;
+    background-color: rgb(61, 195, 248);
+    width: 94vw;
+    min-height: 80vh;
+    margin: 20px;
+    font-size: 1.5em;
+}
+.n4{
+    box-sizing: border-box;
+    border: 2px solid black;
+    color: rgb(248, 138, 138);
+    background-color: rgb(194, 114, 78);
+    /* height: 100vmin; */
+    margin: 20px;
+
+}

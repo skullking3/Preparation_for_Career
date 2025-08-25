@@ -1,0 +1,22 @@
+ @import url('https://fonts.googleapis.com/css2?family=Playwrite+MX+Guides&display=swap');
+.fmly{
+    /* font-family:'Brush Script MT', cursive; */
+    /* font-family: 'Papyrus',fantasy; */
+   font-family: "Playwrite MX Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40pxle;
+}
+.styl{
+    font-style: italic;
+    font-weight: 900;
+    /* font-variant: small-caps; */
+    font-size: 25px;
+    text-align: center;
+    text-decoration:overline;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 10px;
+    line-height: 15px;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+}

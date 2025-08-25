@@ -1,0 +1,22 @@
+h1{
+    color: red;
+
+}
+.n1{
+    border: 2px solid black;
+    margin-bottom: 10px;
+    height: 20vh;
+    width: 50vw;
+    overflow: auto;
+}
+.n2{
+    border: 2px solid black;
+    height: 20vh;
+    width: 50vw;
+    /* overflow: auto; */
+    /* overflow: hidden; */
+    overflow: scroll;
+    /* overflow: clip; */
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

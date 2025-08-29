@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Property</title>
+    <style>
+        .m1{
+            border: 2px solid black;
+            min-height: 80vh;
+            width: 80vw;
+            background-color: bisque;
+            display: flex;
+            justify-content:center; 
+            align-items: center;
+            /* flex-direction: column; */
+            
+            /* gap: 10px; */
+            /* row-gap: 10px;
+            column-gap: 20px; */
+            gap: 20px 20px;
+
+            /* flex-wrap: wrap; */
+            /* align-content: center;
+            flex-flow: row wrap; */
+        }
+        .n1{
+            border: 2px solid black;
+            height: 5vh;
+            width: 5vw;
+            /* margin: 5px; */
+            background-color: rgb(96, 96, 230)
+        }
+        #i1{
+            /* background-color: blue */
+            order: 0;
+            flex-grow: 0.5;
+            flex-shrink: 2;
+            align-self: flex-start;
+        }
+        #i2{
+            order: 1;
+            /* background-color: blue */
+        }
+        #i3{
+            order: 2;
+            /* background-color: blue */
+        }
+    </style>
+</head>
+<body>
+    <div class="m1">
+        <div class="n1" id="i1">1</div>
+        <div class="n1" id="i2">2</div>
+        <div class="n1" id="i3">3</div>
+        <div class="n1" id="i4"></div>
+        <div class="n1" id="i5"></div>
+        <div class="n1" id="i6"></div>
+        <div class="n1" id="i7"></div>
+        <div class="n1" id="i8"></div>
+        <div class="n1" id="i9"></div>
+    </div>
+</body>
+</html>

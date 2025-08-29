@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+        .con{
+            border: 2px solid black;
+            height: 80vh;
+            width: 80vw;
+            display: flex;
+            justify-items: center;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+
+            /* Transform property */
+            
+        }
+        .n1{
+            border: 2px solid black;
+            border-radius: 2px;
+            height: 100px;
+            width: 100px;
+        }
+        .nn{
+             transform: rotate(0.90turn);
+        }
+        .n2{
+            transform: rotate(50deg);
+        }
+        .n3{
+            transform: rotateX(40deg);
+        }
+        .n4{
+            transform: rotateY(40deg);
+        }
+        .n5{
+            transform: rotatez(40deg);
+        }
+        .n6{
+            transform: scale(1.6);
+        }
+        .n7{
+            /* transform: skew(50deg); */
+            /* transform: skewX(50deg); */
+            transform: skewY(60deg);
+        }
+        .n8{
+            /* transform: translate(80%); */
+            /* transform: translate(-80%); */
+            transform: translate(110px);
+        }
+           
+        .n9{
+             transform: translateY(110px) skew(50deg) translateX(50px);
+        }
+        .n10{
+            transform: rotate(0.125turn);
+            transform-origin: 0% 100%;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="con">
+        <div class="n1 nn">Box</div>
+        <div class="n1 n2">Box1</div>
+        <div class="n1 n3">Box2</div>
+        <div class="n1 n4">Box3</div>
+        <div class="n1 n5">Box4</div>
+        <div class="n1 n6">Box5</div>
+        <div class="n1 n7">Box6</div>
+        <div class="n1 n8">Box7</div>
+        <div class="n1 n9">Box8</div>
+        <div class="n1 n10">Box9</div>
+        <div class="n1 n11">Box10</div>
+    </div>
+</body>
+</html>

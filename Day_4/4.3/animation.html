@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Animations</title>
+    <style>
+        .con{
+            border: 2px solid black;
+            background-color: aquamarine;
+            width: 60vw;
+            height: 15vh;
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+        }
+
+        .n1{
+            border: 2px solid orangered;
+            background-color: rgb(230, 155, 44);
+            margin-top:10px;
+            width: 4vw;
+            height: 10vh;
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            /* animation-name: meraHai ,color;
+            animation-timing-function: ease-in-out;
+            animation-duration: 3s;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse; */
+            /* animation-fill-mode: backwards; */
+            animation: meraHai  3s ease-in-out 0s infinite alternate,
+                        colo   3s ease-in-out 0s infinite alternate ;
+            
+        }
+        .n0{
+            border-radius: 100% 100% 0% 100%;
+        }
+        .n9{
+            border-radius: 100% 100% 100% 0%;
+        }
+        @keyframes meraHai  {
+            from{
+
+
+            }
+            to{
+                transform: translateX(100vh) rotateX(10deg);
+
+            }   
+        }
+        @keyframes colo{
+            20%{
+                background-color: rgb(117, 117, 243);
+                
+            }
+            40%{
+                background-color: rgb(177, 113, 236);
+            }
+            60%{
+                background-color: rgb(255, 109, 109);
+            }
+            80%{
+                background-color: #1ac9f5;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="con">
+        <div class="n1 n0"><br>Tum</div>
+        <div class="n1 n9">  <br> Pagal ho</div>
+    </div>
+</body>
+</html>

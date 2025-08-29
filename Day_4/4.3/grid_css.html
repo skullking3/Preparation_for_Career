@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .con{
+            border: 2px solid black;
+            display: grid;
+            align-content: center;
+            justify-content: center;
+            /* By default 22px size to be consider */
+            grid-template-columns: 100px 125px 150px;
+            grid-template-rows: 150px 130px 132px;
+            
+            /* grid-template-columns: 1fr 2fr 2fr 3fr; */
+            /* grid-template-columns: repeat(3,1fr); */
+
+
+
+            /* grid-template-areas: "nav nav nav"
+                                 "side article article"
+                                 "footer footer footer"; */
+            
+                                 
+
+            /* gap: 2px; */
+            row-gap: 15px;
+            column-gap: 50px;
+        }
+        .it{
+            border: 1px solid black;
+            
+            height:100px;
+            width: 100px;
+            
+        }
+        .it1{
+            margin: 10px;
+            /* grid-area: nav; */
+            /* grid-row: 1/3;
+            grid-column: 1/4; */
+
+            /* grid-row-start: 1;
+            grid-row-end: 3; */
+
+            align-self:flex-end;
+        }
+        /* .it2{
+            grid-area: side;
+        }
+        .it3{
+            grid-area: article;
+        }
+        .it4{
+            grid-area: footer;
+        } */
+
+    </style>
+    <title>Css Grid</title>
+</head>
+<body>
+    <div class="con">
+        <div class="it it1" >1</div>
+        <div class="it it2">2</div>
+        <div class="it it3">3</div>
+        <div class="it it4">4</div>
+        <div class="it it5">5</div>
+        <div class="it it6">6</div>
+        <div class="it">7</div>
+        <div class="it">8</div>
+        <div class="it">9</div>
+        <div class="it">9</div>
+    </div>
+</body>
+</html>

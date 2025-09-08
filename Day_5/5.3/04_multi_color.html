@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi color</title>
+</head>
+<style>
+    :root{
+        --color:rgb(252, 11, 11);
+        --bg:rgb(0, 2, 128);
+        --ele:rgb(66, 66, 247);
+    }
+    nav{
+        background-color: var(--ele);
+        border: 2px solid black; 
+        border-radius: 10px;
+    }
+    li{
+        list-style: none;
+        display: inline;
+        color: var(--color);
+        margin: 10px;
+
+
+    }
+    a {
+        color: var(--color);
+        text-decoration: none;
+    }
+</style>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Home </a></li>
+            <li><a href="/">News</a></li>
+            <li><a href="/">Service</a></li>
+            <li><a href="/">About Me</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

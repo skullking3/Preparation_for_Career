@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bounce animation</title>
+    <style>
+        .main{
+            background-color: aquamarine;
+            border: 2px solid black;
+            height: 80vh;
+            width: 80vw;
+            position: relative;
+            
+        }
+        .cic{
+            background-color: blueviolet;
+            height: 200px;
+            width: 200px;
+            border: 2px solid black;
+            border-radius: 100px;
+            position:absolute ;
+            bottom: 0;
+            left: 0;
+            /* animation-name: first 3s ease-in-out 0s infinite; */
+            animation: Xzs 5s linear infinite ,
+                        colo   2s linear infinite,
+                        col   1s linear infinite alternate ;
+
+        }
+    
+         @keyframes Xzs{
+            from{
+                left:0;
+            }
+            to{
+              left: 100%;
+
+            }   
+        }
+        @keyframes col {
+            from{
+                bottom: 0%;
+            }
+            to{
+                bottom: 100%;
+            }
+            
+        }
+        @keyframes colo{
+            20%{
+                background-color: rgb(117, 117, 243);
+                
+            }
+            40%{
+                background-color: rgb(177, 113, 236);
+            }
+            60%{
+                background-color: rgb(255, 109, 109);
+            }
+            80%{
+                background-color: #1ac9f5;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="cic"></div>
+    </div>
+    
+</body>
+</html>

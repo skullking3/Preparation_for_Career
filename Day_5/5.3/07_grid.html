@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design the grid</title>
+    <style>
+        .main{
+            /* border: 2px solid black; */
+            height: 75px;
+            width: 1000px;
+            display: flex;
+        }
+        .n1{
+            height: inherit;
+            width: 500px;
+        }
+        .n1 img{
+            height: 75px;
+            width: 200px;
+        }
+        .n2{
+            display: flex;
+            padding-top: 20px;
+        }
+        .n2 div span{
+            margin: 10px;
+        }
+        .n3{
+            height: 90px;
+            width: auto;
+            display: flex;
+            justify-content: center;
+            font-size: 28px;
+        }
+        .n3 p b {
+            text: bold;
+        }
+        .n3 img{
+            height: 20px;
+            width: 50px;
+            margin-left: 20px;
+        }
+        .n4{
+            text-align: center;
+            font-size: 18px;
+        }
+        main button{
+            border: 0px solid rgb(27, 164, 243);
+            border-radius: 5px;
+            background-color: rgb(27, 164, 243);;
+            color: white;
+        }
+        .n5{
+            margin-top: 20px;
+            height: 35px;
+            width: auto;
+            display: flex;
+            justify-content: center;
+        }
+        .i{
+            display: flex;
+            align-items: center;
+            margin-top: 50px;
+            margin-left: 100px;
+            grid-column: 1/4;
+            
+        }
+        .i img{
+            height: 50px;
+            width: 50px;
+        }     
+        .i p b {
+            text:bold ;
+            font-size:25px ;
+        }  
+        .i p{
+            font-size: 14px;
+            margin: 10px;
+        } 
+        .n7{
+            display: grid;
+            
+            justify-content: center;
+            grid-template-columns: 200px 200px 200px;
+        }
+        h6{
+            font-size: 25px;
+            text-align: center;
+        }
+        .btnall{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .it{
+            /* border:2px solid black ; */
+            border-radius: 10px;
+            background-color: rgb(243, 241, 238);
+            margin: 5px;
+        }
+        .it button{
+            height: 30px;
+            width: 90px;
+            font-size: 8px;
+            margin:5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="main">
+            <div class="n1">
+                <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/Dark-logo.png" alt="Logo ">
+            </div>
+            <div class="n2">
+                <div class="a1">
+                <span>Products </span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="a2">
+                    <span>Products </span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="a3">
+                    <span>Products </span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="a4">
+                    <span>Products </span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="a5">
+                    <img src="https://www.ultraedit.com/wp-content/themes/Divi_Child/img/Lang.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <Section class="top">a
+            <div class="n3">
+            <p>Download <b>UtlraEdit</b> for Windows<img src="https://www.ultraedit.com/wp-content/uploads/2022/10/Reviews.png" alt="Can't Download"></p>
+            </div>
+            <div class="n4">
+                Download and try UltraEdit before you it! This download includes the full Windows version of the editor.
+            </div>
+            <div class="n5">
+                <button>DOWNLOAD MAC OR LINUX VERSION</button>
+            </div>
+        </Section>
+
+        <section class="down">
+            
+            <div class="n7">
+                <div class="i">
+                <img src="https://www.ultraedit.com/wp-content/uploads/2022/11/UE.png" alt="Can't Download">
+                <p><b>Download UtlraEdit </b>v2023.1(released 08/16/2023) | Hotfix</p>
+                </div>
+                <div class="it it1">
+                    <h6>English</h6>
+                    <div class="btnall"><button>Download 32-bit</button><button>Download 64-bit</button>
+                    </div>
+                </div>
+                <div class="it it2">
+                    <h6>English</h6>
+                    <div class="btnall"><button>Download 32-bit</button><button>Download 64-bit</button>
+                    </div>
+                </div>
+                <div class="it it3">
+                    <h6>English</h6>
+                    <div class="btnall"><button>Download 32-bit</button><button>Download 64-bit</button>
+                    </div>
+                </div>
+                <div class="it it4">
+                    <h6>English</h6>
+                    <div class="btnall"><button>Download 32-bit</button><button>Download 64-bit</button>
+                    </div>
+                </div>
+                <div class="it it5">
+                    <h6>English</h6>
+                    <div class="btnall"><button>Download 32-bit</button><button>Download 64-bit</button>
+                    </div>
+                </div>
+                <div class="it it6">
+                    <h6>English</h6>
+                    <div class="btnall"><button>Download 32-bit</button><button>Download 64-bit</button>
+                    </div>
+                </div>
+                <div class="it it7">
+                    <h6>English</h6>
+                    <div class="btnall"><button>Download 32-bit</button><button>Download 64-bit</button>
+                    </div>
+                </div>
+                <div class="it it8">
+                    <h6>English</h6>
+                    <div class="btnall"><button>Download 32-bit</button><button>Download 64-bit</button>
+                    </div>
+                </div>
+                <div class="it it9">
+                    <h6>English</h6>
+                    <div class="btnall"><button>Download 32-bit</button><button>Download 64-bit</button>
+                    </div>
+                </div>
+                <div class="it it10">
+                    <h6>English</h6>
+                    <div class="btnall">    <button>Download 32-bit</button><button>Download 64-bit</button>
+                    </div>
+                </div>
+                <div class="it it11">
+                    <h6>English</h6>
+                    <div class="btnall">    <button>Download 32-bit</button><button>Download 64-bit</button>
+                    </div>
+                </div>
+                <div class="it it12">
+                    <h6>English</h6>
+                    <div class="btnall">    <button>Download 32-bit</button><button>Download 64-bit</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+</body>
+</html>
